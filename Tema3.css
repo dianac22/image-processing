@@ -1,0 +1,120 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: rgba(120, 16, 180, 0.767);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.container {
+    margin: 1.5vh 20vw;
+    margin-top: 10vh;
+    text-align: center;
+    background: rgb(39, 188, 209);
+    background: linear-gradient(118deg,
+        rgba(39, 188, 209, 0.9783263647255778) 0%,
+        rgba(6, 14, 101, 1) 100%);
+    opacity: 0.9;
+    color: white;
+    border: 10px solid rgba(129, 47, 176, 0.767);
+    padding: 10px 10vw;
+    border-radius: 20px;
+    min-height: 15vh;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+}
+
+.column {
+  flex: 30%;
+	padding: 5px;
+}
+
+.canvas {
+  border: 10px solid rgba(129, 47, 176, 0.767);
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+section {
+    height: 50vh;
+    width: 100%;
+    margin-top: -50px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.images, .buttons  {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;   
+    flex-wrap: wrap; 
+    width: 100%;  
+  }
+  
+  #dog-img {
+    background-color: #fff;
+    border: 10px solid rgba(129, 47, 176, 0.767);
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 15px;
+  }
+  
+  #dog-img img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  #btn-dog {
+    margin: 10px;
+    padding: 2px 12px;
+    border-radius: 5px;
+    outline: none;  
+    font-family: inherit;
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    background-color: #114D99;
+  }
+  
+  #btn-dog:hover {
+    background-color: #0665ea;
+    transform: scale(1.2);
+  }
+  
+  #btn-dog:active {
+    transform: scale(.9);
+  }
+  
+  @media only screen and (max-width: 590px) {
+    .header {
+      font-size: 20px;
+    }
+    #dog-img {
+      background-color: #fff;    
+      width: 200px;
+      height: 200px;
+    }
+  }

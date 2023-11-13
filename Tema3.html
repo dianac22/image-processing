@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="Tema3.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta http-equiv = "X-UA-Compatible" conyent = "IE=edge">
+    <title>Image smoothing canvas</title>
+</head>
+
+<body>
+    <div class="container">
+        <br>
+        <h1>Generate random image</h1><br>
+        <p>
+            Click the button below to get an image of the cutest dogs.
+        </p>
+        <br>
+        <div class='buttons'>
+            <button id='btn-dog' onclick="getDogs();">Random DOG!</button>
+        </div>
+        <div class="column">
+            <div class='images'>
+                <div id='dog-img'></div>
+            </div>
+        <div class='buttons'>
+            <button id='btn-dog' onclick="mirror();">Mirror Image</button> 
+        </div>
+            <div class="canvas">
+              <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    </div>
+<script src="codjs.js"></script>
+</body>
+
+</html>
